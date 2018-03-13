@@ -1,0 +1,11 @@
+2018-03-12 23:03:29 TRACE ConnectionUtil:18 - Connecting to database
+2018-03-12 23:03:29 TRACE ConnectionUtil:26 - connection failed
+2018-03-12 23:05:23 TRACE ConnectionUtil:18 - Connecting to database
+2018-03-12 23:05:23 ERROR ConnectionUtil:26 - connection failed
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cav0wzdoso3h.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:19)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:23)
+2018-03-12 23:09:25 TRACE ConnectionUtil:18 - Connecting to database
+2018-03-12 23:09:27 TRACE ConnectionUtil:24 - connection success
